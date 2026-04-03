@@ -8,8 +8,8 @@ import lombok.Data;
 public class LoginUserDTO {
     @Email
     @NotBlank(message = "Enter email")
-    private String Email;
+    private String email;
 
     @NotBlank(message = "Enter Password")
-    private String Password;
+    private String password;
 }

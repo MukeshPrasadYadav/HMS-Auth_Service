@@ -17,7 +17,7 @@ public class CustomizedUserDetails implements UserDetails {
     }
     @Override
     public String getUsername(){
-        String userName = user.getFirstName() + user.getMiddleName() + user.getLastName();
+        String userName = user.getEmail();
         return  userName;
     }
     @Override
